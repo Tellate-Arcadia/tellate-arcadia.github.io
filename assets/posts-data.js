@@ -17,7 +17,7 @@ const BLOG_POSTS = [
     id: 'koukai',
     date: '2026/8/13',
     category: 'お知らせ',
-    title: 'Spirit Trek-精霊フィールドの公開されました！',
+    title: 'Spirit Trek-精霊フィールド-が公開されました！',
     excerpt: '無事に公開！　よかったよかったっ'
   },
   {   
