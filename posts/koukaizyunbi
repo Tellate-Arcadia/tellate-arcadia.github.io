@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>お知らせ ｜ Arcadia Works Blog</title>
+<meta name="description" content="Spirit Trek-精霊フィールド-をフリーゲーム夢現に公開申請してきました">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="../index.html" class="brand">
+      <img src="../assets/fox-logo.png" alt="Arcadia Works" width="34" height="47">
+      <span class="brand-text">Arcadia Works<small>GAME &amp; CREATIVE</small></span>
+    </a>
+    <nav class="site-nav">
+      <a href="../index.html">トップ</a>
+      <a href="../games.html">ゲーム</a>
+      <a href="../blog.html" class="current">ブログ</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap crumb">
+  <a href="../blog.html">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>
+    ブログに戻る
+  </a>
+</div>
+
+<section class="post-hero">
+  <div class="wrap">
+    <span class="post-cat tag" style="border-color:var(--gold); color:var(--gold);">ここにカテゴリ</span>
+    <h1>プロジェクト指導</h1>
+    <span class="post-date">2026/8/13</span>
+  </div>
+</section>
+
+<section class="post-article">
+  <div class="wrap">
+    <div class="post-body">
+
+      <p>プロジェクト指導。というほど大きなものではないですが。</p>
+      <p>フリーゲーム夢現様の方にSpirit Trek-精霊フィールド-の公開申請を出してきました！</p>
+      <p>初の自作ゲームということもあり、どうなるかなと不安でいっぱいですが、</p>
+      <p>少しでもプレイした方が楽しいと感じてくれたら嬉しいです！</p>
+      <p></p>
+      <p>その前にちゃんと公開されると・・・いいな？ｗ</p>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-brand">
+      <img src="../assets/fox-logo.png" alt="" width="24" height="34">
+      <span>Arcadia Works</span>
+    </div>
+    <div class="foot-links">
+      <a href="../games.html">ゲーム</a>
+      <a href="../blog.html">ブログ</a>
+      <a href="#" target="_blank" rel="noopener">X (Twitter)</a>
+    </div>
+  </div>
+  <div class="wrap foot-bottom">© Arcadia Works.</div>
+</footer>
+
+</body>
+</html>
