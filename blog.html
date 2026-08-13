@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ブログ ｜ Arcadia Works</title>
+<meta name="description" content="Arcadia Worksの制作雑記。ゲーム開発の話から、FF14・ポケモンなどの話題まで。">
+<link rel="stylesheet" href="assets/style.css">
+<!--
+  Google AdSenseの審査申請・サイト確認用スクリプトは、発行されたらこの位置に追加してください。
+  例：<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+-->
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      <img src="assets/fox-logo.png" alt="Arcadia Works" width="34" height="47">
+      <span class="brand-text">Arcadia Works<small>GAME &amp; CREATIVE</small></span>
+    </a>
+    <nav class="site-nav">
+      <a href="index.html">トップ</a>
+      <a href="games.html">ゲーム</a>
+      <a href="blog.html" class="current">ブログ</a>
+    </nav>
+  </div>
+</header>
+
+<section class="blog-hero">
+  <div class="wrap">
+    <span class="eyebrow">BLOG</span>
+    <h1>おまけの雑記帳</h1>
+    <p>ゲーム制作の裏話から、FF14やポケモンなど関係のない話まで。気が向いたときに書いています。</p>
+  </div>
+</section>
+
+<section class="post-list">
+  <div class="wrap">
+    <div class="post-grid" id="post-grid"></div>
+  </div>
+</section>
+
+<script src="assets/posts-data.js"></script>
+<script>
+  const grid = document.getElementById('post-grid');
+  grid.innerHTML = BLOG_POSTS.map(post => `
+    <a class="post-card" href="posts/${post.id}.html" style="text-decoration:none; color:inherit;">
+      <span class="post-date">${post.date}</span>
+      <div>
+        <span class="post-cat">${post.category}</span>
+        <h2>${post.title}</h2>
+        <p>${post.excerpt}</p>
+      </div>
+    </a>
+  `).join('');
+</script>
+
+<!--
+  Google AdSenseの広告タグは、審査が通ったら発行される <script>/<ins> のコードを
+  下の .ad-slot-inner の中身と丸ごと差し替えてください（このdivや外側のsectionはそのまま残してOKです）。
+-->
+<section class="ad-slot">
+  <div class="wrap">
+    <div class="ad-slot-inner">
+      <span class="ad-slot-label">広告スペース</span>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-brand">
+      <img src="assets/fox-logo.png" alt="" width="24" height="34">
+      <span>Arcadia Works</span>
+    </div>
+    <div class="foot-links">
+      <a href="games.html">ゲーム</a>
+      <a href="blog.html">ブログ</a>
+      <a href="#" target="_blank" rel="noopener">X (Twitter)</a>
+    </div>
+  </div>
+  <div class="wrap foot-bottom">© Arcadia Works.</div>
+</footer>
+
+</body>
+</html>
