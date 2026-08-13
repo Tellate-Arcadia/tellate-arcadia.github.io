@@ -24,7 +24,7 @@ const BLOG_POSTS = [
     id: 'koukaizyunbi',
     date: '2026/8/13',
     category: 'お知らせ',
-    title: 'Spirit Trek-精霊フィールドの公開準備中',
+    title: 'Spirit Trek-精霊フィールド-の公開準備中',
     excerpt: '初自作ゲーム・・・果たしてどうなる！？'
   },
   {   
