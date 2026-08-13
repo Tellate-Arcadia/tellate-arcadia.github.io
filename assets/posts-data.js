@@ -13,9 +13,16 @@
 // これだけで、一覧ページに自動的に表示されます。
 
 const BLOG_POSTS = [
-  {
+  {   
+    id: 'koukaizyunbi',
+    date: '2026/8/13',
+    category: 'お知らせ',
+    title: 'Spirit Trek-精霊フィールドの公開準備中',
+    excerpt: '初自作ゲーム・・・果たしてどうなる！？'
+  },
+  {   
     id: 'hello-world',
-    date: 'ー',
+    date: '2026/8/12',
     category: 'お知らせ',
     title: 'ブログを開設しました',
     excerpt: 'ここには制作の記録や、ゲームと関係のない雑記も含めて、気の向くまま書いていく予定です。次の更新をお楽しみに。'
