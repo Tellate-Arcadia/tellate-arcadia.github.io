@@ -14,6 +14,13 @@
 
 const BLOG_POSTS = [
   {   
+    id: 'newgame',
+    date: '2026/8/15',
+    category: 'お知らせ',
+    title: '新作ゲーム考案中',
+    excerpt: 'Spirit Trekの公開も終わったので'
+  },
+  {   
     id: 'koukai',
     date: '2026/8/13',
     category: 'お知らせ',
