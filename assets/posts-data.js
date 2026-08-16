@@ -14,6 +14,13 @@
 
 const BLOG_POSTS = [
   {   
+    id: 'nikki1',
+    date: '2026/8/17',
+    category: '日記',
+    title: '新作ゲームについて',
+    excerpt: '時間をかけて作るつもりが・・・？'
+  },
+  {   
     id: 'newgame',
     date: '2026/8/15',
     category: 'お知らせ',
