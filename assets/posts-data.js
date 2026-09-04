@@ -14,6 +14,12 @@
 
 const BLOG_POSTS = [
   {   
+    id: 'sinsaku',
+    date: '2026/9/4',
+    category: '日記',
+    title: '新作ゲーム制作中',
+    excerpt: '思ったより時間かかってます'
+  },  {   
     id: 'nikki1',
     date: '2026/8/17',
     category: '日記',
