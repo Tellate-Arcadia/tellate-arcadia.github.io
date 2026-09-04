@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>新作ゲーム制作中 ｜ Arcadia Works Blog</title>
+<meta name="description" content="前回の更新からしばらくたってしまいました">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="../index.html" class="brand">
+      <img src="../assets/fox-logo.png" alt="Arcadia Works" width="34" height="47">
+      <span class="brand-text">Arcadia Works<small>GAME &amp; CREATIVE</small></span>
+    </a>
+    <nav class="site-nav">
+      <a href="../index.html">トップ</a>
+      <a href="../games.html">ゲーム</a>
+      <a href="../blog.html" class="current">ブログ</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap crumb">
+  <a href="../blog.html">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>
+    ブログに戻る
+  </a>
+</div>
+
+<section class="post-hero">
+  <div class="wrap">
+    <span class="post-cat tag" style="border-color:var(--gold); color:var(--gold);">ここにカテゴリ</span>
+    <h1>新作ゲーム制作中</h1>
+    <span class="post-date">2026/9/4</span>
+  </div>
+</section>
+
+<section class="post-article">
+  <div class="wrap">
+    <div class="post-body">
+
+      <p>久しぶりの更新になってしまいました。</p>
+      <p>新作ゲーム制作中の件は、前の記事でもお伝えしていたかと思いますが、現状の進捗としては全体の6割ほどです。</p>
+      <p>しかし改めてゲーム制作をするというのは大変だということを感じさせられていますｗ</p>
+      <p>実はイベントプランナーの経験は少しだけあるんですが、自作ゲームを1人で作るとなると、当然そこだけでなくバトルやシナリオ等々かなりやることが多く、</p>
+      <p>実装、テストも自分でやるので考えて、作って、試して、直して、追加して。をひたすら繰り返していますｗ</p>
+      <p>まぁなんだかんだ楽しくやれてはいるので、もう1ヶ月くらいはかかってしまうかもしれませんが、無事リリースまでこのまま突っ走れたらと思います。</p>
+      <p>　</p>
+      <p>あとSpirit Trekの方も近々アップデートを入れる予定です。ぼちぼち精霊が集まり始めてきてるころあいでもあるかな、と思うので。</p>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-brand">
+      <img src="../assets/fox-logo.png" alt="" width="24" height="34">
+      <span>Arcadia Works</span>
+    </div>
+    <div class="foot-links">
+      <a href="../games.html">ゲーム</a>
+      <a href="../blog.html">ブログ</a>
+      <a href="https://x.com/Arcadia_Works" target="_blank" rel="noopener">X (Twitter)</a>
+    </div>
+  </div>
+  <div class="wrap foot-bottom">© Arcadia Works.</div>
+</footer>
+
+</body>
+</html>
