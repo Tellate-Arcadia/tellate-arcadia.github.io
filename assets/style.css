@@ -554,3 +554,26 @@ footer .wrap {
 @media (max-width: 640px) {
   .post-card { grid-template-columns: 1fr; gap: 8px; }
 }
+
+/* ---------- portrait screenshots (楽園の残響など縦長画面) ---------- */
+.shot-strip.is-portrait { grid-template-columns: repeat(4, 1fr); }
+@media (max-width: 780px) {
+  .shot-strip.is-portrait { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 500px) {
+  .shot-strip.is-portrait { grid-template-columns: 1fr 1fr; gap: 12px; }
+  .shot-strip.is-portrait .shot { padding: 10px 10px 10px; }
+}
+
+/* 制作中タグ（公開前の作品用） */
+.tag.tag-wip { border-color: var(--gold); color: var(--gold); }
+
+/* 作品ページ内の注記ボックス */
+.note-box {
+  border: 1px solid var(--paper-line);
+  background: var(--paper);
+  padding: 22px 26px;
+  font-size: 13.5px;
+  color: var(--mist-dark);
+}
+.note-box strong { color: var(--ink); font-weight: 500; }
