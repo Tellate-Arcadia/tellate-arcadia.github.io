@@ -13,6 +13,14 @@
 // これだけで、一覧ページに自動的に表示されます。
 
 const BLOG_POSTS = [
+   {
+    id: 'rakuen-announce',
+    date: '2026.09.27',
+    category: 'お知らせ',
+    title: '新作『楽園の残響』の紹介ページを公開しました',
+    excerpt: '制作中の新作ファンタジーRPG『楽園の残響』の紹介ページを追加しました。どんなゲームなのか、いまの進み具合、そしてSpirit Trek Ver2.0のお知らせも。'
+  },
+
   {   
     id: 'sinsaku',
     date: '2026/9/4',
