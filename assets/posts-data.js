@@ -13,6 +13,14 @@
 // これだけで、一覧ページに自動的に表示されます。
 
 const BLOG_POSTS = [
+　{
+    id: 'rakuen-testing-and-spirit-trek-steam',
+    date: '2026.10.02',
+    category: '制作日記',
+    title: '制作近況：『楽園の残響』は通しテスト中、Spirit TrekはSteam版を制作中です',
+    excerpt: '『楽園の残響』は本編の実装が完了し、いまは通しテストの真っ最中です。Spirit Trekは霊域幻札をメインにしたSteam版の制作を進めています。'
+  },
+
    {
     id: 'rakuen-announce',
     date: '2026.09.27',
