@@ -577,3 +577,8 @@ footer .wrap {
   color: var(--mist-dark);
 }
 .note-box strong { color: var(--ink); font-weight: 500; }
+
+/* 明るい背景用のアウトラインボタン */
+.btn-outline { color: var(--ink); }
+.btn-outline:hover { background: rgba(12,11,10,0.05); }
+.btn-row { display: flex; gap: 12px; flex-wrap: wrap; }
