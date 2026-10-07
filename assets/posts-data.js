@@ -13,6 +13,14 @@
 // これだけで、一覧ページに自動的に表示されます。
 
 const BLOG_POSTS = [
+  {
+    id: 'rakuen-release',
+    date: '2026.10.07',
+    category: 'お知らせ',
+    title: '『楽園の残響』を公開しました',
+    excerpt: '新作ファンタジーRPG『楽園の残響 ―彼方より継ぐもの―』をフリーゲーム夢現で公開しました。ブラウザですぐに遊べます。'
+  },
+
 　{
     id: 'rakuen-testing-and-spirit-trek-steam',
     date: '2026.10.02',
