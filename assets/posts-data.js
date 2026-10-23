@@ -13,6 +13,14 @@
 // これだけで、一覧ページに自動的に表示されます。
 
 const BLOG_POSTS = [
+  {
+    id: 'pokemon-doubles-and-partners',
+    date: '2026.10.23',
+    category: '雑記',
+    title: 'ゲーム制作の合間に：最近のポケモン対戦と、歴代の相棒たち',
+    excerpt: '最近はダブルバトルがメインになったポケモン対戦の近況と、初代から世代ごとに愛用してきたポケモンたちを振り返ります。'
+  },
+
       {
     id: 'rakuen-ver1-4-update',
     date: '2026.10.16',
