@@ -582,3 +582,7 @@ footer .wrap {
 .btn-outline { color: var(--ink); }
 .btn-outline:hover { background: rgba(12,11,10,0.05); }
 .btn-row { display: flex; gap: 12px; flex-wrap: wrap; }
+
+/* フッターリンクの折り返し（リンク追加に伴う調整） */
+.foot-links { flex-wrap: wrap; row-gap: 10px; }
+.foot-links a { white-space: nowrap; }
